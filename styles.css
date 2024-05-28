@@ -1,0 +1,90 @@
+html {
+    scroll-behavior: smooth;
+    }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #232020;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+h1 {
+    color: #fff5f5;
+    text-align: center;
+}
+
+h2{
+    color: #fff5f5;
+    text-align: center;
+}
+
+h3 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.project {
+    display: inline-block;
+    margin: 20px;
+}
+.project img {
+    width: 300px;
+    height: 200px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+}
+.project img:hover {
+    scale: 1.05;
+}
+.project a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+p {
+    background: rgba(120, 107, 107, 0.7); /* Fondo semi-transparente para las secciones */
+    padding: 30px;
+    border-radius: 10px;
+    color: #ffffff;
+    flex: 1;
+    margin: 30px;
+    max-width: 440px; /* Limitar el ancho de la descripción */
+}
+
+.parder{
+    float: right;
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+    max-width: 600px; /* Limitar el ancho de la descripción */
+}
+
+body {
+    background-image: url(./log/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+}
+
+
+/* ---------------------------------------Estilos para pagina de registro------------------------------------------- */
+/* Estilos específicos para los formularios de registro e inicio de sesión */
+
+
